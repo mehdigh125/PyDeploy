@@ -8,7 +8,7 @@ We design a application base on Fastapi and Docker with Sql Server as a database
 ```
 pip install -r requirements.txt
 ```
-# How to run :
+# How to Run :
 ```
 https://ghaffari.liara.run/items
 
@@ -66,7 +66,7 @@ COPY ./app /code/app
 EXPOSE 80
 CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "80"]
 
-#########################
+
 ```
 
 
