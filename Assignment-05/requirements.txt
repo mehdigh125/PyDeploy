@@ -1,8 +1,6 @@
 fastapi
-pyodbc
 uvicorn
 pydantic
 python-multipart
 pymssql
-dotenv
-os
+python-dotenv

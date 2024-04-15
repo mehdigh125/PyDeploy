@@ -8,7 +8,7 @@ passql = os.getenv("passql")
 app=FastAPI()
 
 
-conn = pymssql.connect(host='denali.liara.cloud', user='sa', password=passql, database='todo_db',port=32953)
+conn = pymssql.connect(host='mssql', user='sa', password=passql, database='todo_db',port=1433)
 cursor = conn.cursor()
 
 
