@@ -26,7 +26,7 @@ liara's docs :
 
 2) POST API: https://ghaffari.liara.run/items
 
-    This url with a body contains data, will insert new recor.
+    This url with a body contains data, will insert new record.
 
     body could contains: title, description, time, status.
 
