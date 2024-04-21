@@ -34,7 +34,9 @@ docker build -t mehdi .
 SQLALCHEMY_DATABASE_URL  =  "Data Source=mssql,1433;Initial Catalog=myDB;User Id=sa;Password=*;"
 
 + 2- upload docker in liara and project is available in  : https://ghaffari.liara.run/docs
-<br> :
+<br> 
+:
+
 ![img](image/output.png)
 
 
