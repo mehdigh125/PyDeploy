@@ -29,7 +29,7 @@ docker build -t mehdi .
 + ## Deploy-liara :
 
 + 1- upload database in liara : 
-<br> first we create a [Sql Server 2019 database](https://console.liara.ir/databases/create) 
+<br> first we create a [sql server 2019 database](https://console.liara.ir/databases/create) 
 
 SQLALCHEMY_DATABASE_URL  =  "Data Source=mssql,1433;Initial Catalog=myDB;User Id=sa;Password=*;"
 
